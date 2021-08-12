@@ -16,10 +16,10 @@ require (
 	github.com/in-toto/in-toto-golang v0.2.1-0.20210627200632-886210ae2ab9
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/statsd_exporter v0.20.3 // indirect
-	github.com/sigstore/cosign v1.0.1-0.20210728181701-5f1f18426dc3
+	github.com/sigstore/cosign v1.0.1
 	github.com/sigstore/fulcio v0.1.1
-	github.com/sigstore/rekor v0.2.1-0.20210714185543-38d532d5c0b1
-	github.com/sigstore/sigstore v0.0.0-20210722023421-fd3b69438dba
+	github.com/sigstore/rekor v0.3.0
+	github.com/sigstore/sigstore v0.0.0-20210726180807-7e34e36ecda1
 	github.com/tektoncd/pipeline v0.26.0
 	github.com/tektoncd/plumbing v0.0.0-20210514044347-f8a9689d5bd5
 	go.uber.org/zap v1.18.1
