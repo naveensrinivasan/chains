@@ -3,8 +3,9 @@ module github.com/tektoncd/chains
 go 1.16
 
 require (
-	cloud.google.com/go v0.88.0
-	cloud.google.com/go/storage v1.16.0
+	cloud.google.com/go v0.97.0
+	cloud.google.com/go/kms v1.1.0 // indirect
+	cloud.google.com/go/storage v1.18.2
 	github.com/ghodss/yaml v1.0.0
 	github.com/golangci/golangci-lint v1.41.1
 	github.com/google/addlicense v0.0.0-20210809195240-d43bb61fdfda
@@ -24,7 +25,7 @@ require (
 	github.com/tektoncd/plumbing v0.0.0-20210514044347-f8a9689d5bd5
 	go.uber.org/zap v1.18.1
 	gocloud.dev v0.23.0
-	google.golang.org/api v0.50.0
+	google.golang.org/api v0.58.0
 	k8s.io/api v0.22.0
 	k8s.io/apimachinery v0.21.3
 	k8s.io/client-go v0.22.0
