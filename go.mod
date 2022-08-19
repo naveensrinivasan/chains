@@ -28,11 +28,8 @@ require (
 	k8s.io/api v0.22.0
 	k8s.io/apimachinery v0.21.3
 	k8s.io/client-go v0.22.0
-	k8s.io/code-generator v0.20.7
-	k8s.io/klog/v2 v2.8.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20210305001622-591a79e4bda7 // indirect
+	k8s.io/code-generator v0.24.4
 	knative.dev/pkg v0.0.0-20210818135208-7b5ecbc0e477
-	sigs.k8s.io/structured-merge-diff/v4 v4.1.0 // indirect
 )
 
 // Knative deps (release-0.20)
